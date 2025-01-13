@@ -22,3 +22,25 @@ será la dificultad del juego. La aplicación genera, de forma aleatoria, una co
 secreta que el usuario tendrá que acertar. En cada intento se muestra como pista, para
 cada dígito de la combinación introducido por el jugador, si es mayor, menor o igual
 que el correspondiente en la combinación secreta.
+
+
+Refactorización Realizada:
+
+Renombrado de la Clase:
+
+El nombre de la clase fue modificado a Ejer11CámaraSecreta para seguir las convenciones estándar de Java (PascalCase) y hacerla más descriptiva.
+Modularización del Código:
+
+La lógica para generar la combinación secreta se movió a un método separado generarCombinacionSecreta, lo que mejora la legibilidad y facilita su mantenimiento.
+Cierre Adecuado de Recursos:
+
+El Scanner se cierra correctamente después de su uso para liberar recursos y evitar posibles fugas.
+Uso de StringBuilder:
+
+Se utiliza StringBuilder para construir la cadena de la combinación secreta de manera más eficiente que la concatenación de cadenas.
+Comentarios Javadoc:
+
+Se añadieron comentarios para explicar el propósito del método generarCombinacionSecreta, mejorando la documentación del código.
+Depuración:
+
+Se incluye una línea de impresión de la combinación secreta para facilitar la depuración, que puede ser eliminada en un entorno de producción.
