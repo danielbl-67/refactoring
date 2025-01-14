@@ -22,3 +22,13 @@ será la dificultad del juego. La aplicación genera, de forma aleatoria, una co
 secreta que el usuario tendrá que acertar. En cada intento se muestra como pista, para
 cada dígito de la combinación introducido por el jugador, si es mayor, menor o igual
 que el correspondiente en la combinación secreta.
+
+*Comentario de Juanma*
+
+Cambios efecutados en el Ejercicio 11:
+
+1-Generación de la combinación secreta: Se genera una combinación secreta aleatoria de dígitos entre 0 y 9, con la longitud proporcionada por el jugador.
+2-Bucle de intentos: El juego permite múltiples intentos hasta que el jugador adivine la combinación secreta. Después de cada intento, el jugador recibe pistas indicando si el dígito ingresado es mayor, menor o igual al correspondiente en la combinación secreta.
+3-Verificación de la longitud del intento: Se valida que el jugador ingrese un intento con la longitud correcta.
+4-Pistas por cada dígito: Después de cada intento, se comparan los dígitos del intento con los de la combinación secreta y se muestran pistas detalladas sobre si el dígito es mayor, menor o correcto.
+5-Finalización del juego: El juego termina cuando el jugador adivina la combinación secreta, y se muestra el número de intentos realizados.
