@@ -12,13 +12,18 @@ Nota: se puede utilizar un vector de frecuencias de repetición para las 5 vocal
 vocales de manera aleatoria. Contar e imprimir el número de veces que aparece cada vocal.
 Nota: se puede utilizar un vector de frecuencias de repetición para las 5 vocales.
 
-10. Leer y almacenar n números enteros en una tabla, a partir de la que se construiran otras
+11. Leer y almacenar n números enteros en una tabla, a partir de la que se construiran otras
 dos tablas con los elementos con valores pares e impares de la primera, respectivamente.
 
-11. Desarrollar el juego la cámara secreta, que consiste abrir una cámara mediante su
+12. Desarrollar el juego la cámara secreta, que consiste abrir una cámara mediante su
 combinación secreta, que está formado por una combinación de dígitos del uno al cinco.
 El jugador especificará cuál es la longitud de la combinación, a mayor longitud mayor
 será la dificultad del juego. La aplicación genera, de forma aleatoria, una combinación
 secreta que el usuario tendrá que acertar. En cada intento se muestra como pista, para
 cada dígito de la combinación introducido por el jugador, si es mayor, menor o igual
 que el correspondiente en la combinación secreta.
+
+Refactorización Silvia:
+- Inicialicé salMax y salMin con el salario del primer empleado ( horas[0] * salHora).
+- Asigné empMax y empMin al primer empleado al mismo tiempo.
+- Ajusté el mensaje final para que muestre correctamente los empleados con el salario máximo y mínimo.
